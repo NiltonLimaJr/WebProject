@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap);
+
+
+body {
+
+    background-color: black;
+    color: gainsboro;
+
+}
+
+p {
+
+    text-align: justify;
+    text-indent: 50px;
+
+}
+
+h3 {
+    font-family: 'Bubblegum Sans', cursive;
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.text {
+
+    position: relative;
+    text-align: justify;
+    width: 700px;
+}
+table#tabela-planetas {
+    display: block;
+    position: absolute;
+    border: 1px solid #141414;
+    border-spacing: 0px;
+    border-radius: 5px;
+    width: 645px;
+    right: 0px;
+    top: 140px;
+    left: auto;
+    bottom: auto;
+}
+
+table#tabela-planetas td{
+    position: relative;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+table#tabela-planetas td.ci{
+    background-color: #141414;
+}
+
+/* Formatação de imagem para ícone do menu */
+img#iconeMenu {
+    position: absolute;
+    right: 350px;
+    top: 0px;
+    width: 150px;
+    height: 150px;
+}
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+
+    position: relative;
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    top: 50px;
+
+}
+
+figure.foto-legenda img{
+    
+    width: auto;
+    height: 100%;
+    
+}
+figure.foto-legenda figcaption {
+
+    opacity: 0;
+    position: absolute;
+    top: 220px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+
+    opacity: 1;
+    
+}
+
+/* Formatação listas */
+
+nav#menu-planetas ul{
+    list-style: none;
+    text-transform: initial;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu-superior ul{
+    list-style: none;  
+    position: absolute;
+    top: -18px; 
+    right: 0px;
+}
+
+nav#menu-superior li{
+    display: inline-block;
+    background-color: rgb(20, 20, 20);
+    margin: 2px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+nav#menu-superior li:hover{
+    
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 4px;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+
+nav#menu-superior a{
+    color: rgb(255, 255, 255);;
+    text-decoration: none;
+}
+nav#menu-superior a:hover{
+    color: rgb(0, 0, 0);
+    margin: 4px;
+    padding: 10px 10px;
+}
+
